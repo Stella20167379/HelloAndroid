@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FirstActivity</string>
+    <string name="txt1">Type Something</string>
+    <string name="btn1">SEND</string>
+    <string name="btn2">send</string>
+</resources>
