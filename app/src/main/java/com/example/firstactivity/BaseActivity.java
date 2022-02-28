@@ -1,5 +1,7 @@
 package com.example.firstactivity;
 
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
@@ -21,5 +23,11 @@ public class BaseActivity  extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         ActivityCollector.removeActivity(this);
+    }
+
+    protected void startActivityWithOneStr(Context context,Class cls,String msg){
+        Intent intent=new Intent(context,cls);
+        intent.putExtra("msg",msg);
+        startActivity(intent);
     }
 }

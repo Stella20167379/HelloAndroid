@@ -3,4 +3,103 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Button
+        android:id="@+id/LTInParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="左上">
+
+    </Button>
+
+    <Button
+        android:id="@+id/RTInParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="右上">
+
+    </Button>
+
+    <Button
+        android:id="@+id/CInParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="居中">
+
+    </Button>
+
+    <Button
+        android:id="@+id/LBInParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="左下">
+
+    </Button>
+
+    <Button
+        android:id="@+id/RBInParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="右下">
+
+    </Button>
+
+    <Button
+        android:id="@+id/LTToCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/CInParent"
+        android:layout_toLeftOf="@id/CInParent"
+        android:text="相对左上">
+
+    </Button>
+
+    <Button
+        android:id="@+id/RTToCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/CInParent"
+        android:layout_toRightOf="@id/CInParent"
+        android:text="相对右上">
+
+    </Button>
+
+    <Button
+        android:id="@+id/LBtToCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CInParent"
+        android:layout_toLeftOf="@id/CInParent"
+        android:text="相对左下">
+
+    </Button>
+
+    <Button
+        android:id="@+id/RBToCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CInParent"
+        android:layout_toRightOf="@id/CInParent"
+        android:text="相对右下">
+
+    </Button>
+
+<!--    要对齐或相对的元素要先定义-->
+    <Button
+        android:id="@+id/leftAlign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/CInParent"
+        android:text="左边缘对齐">
+
+    </Button>
+
 </RelativeLayout>
