@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="20dp"/>
+    <solid android:color="@color/green"/>
+    <stroke android:width="3dp" android:color="@color/orange"/>
+</shape>
+    <!--设置了圆角弧度 每个item的边框粗细及边框颜色和背景颜色-->

@@ -28,6 +28,16 @@
             android:name=".ThirdActivity"
             android:exported="true">
         </activity>
+
+        <activity
+            android:name=".recyclerView.FruitRecyclerActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".recyclerView.DialogActivity"
+            android:exported="true">
+        </activity>
     </application>
 
 </manifest>
